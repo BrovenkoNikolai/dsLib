@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dsLib", "dsLib.csproj", "{14F9DF82-5D3A-4F06-A533-ED193AF0A7F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dsLibTests", "..\dsLibTests\dsLibTests.csproj", "{8096976A-7674-40E0-BB7B-C2789929301E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F9DF82-5D3A-4F06-A533-ED193AF0A7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F9DF82-5D3A-4F06-A533-ED193AF0A7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F9DF82-5D3A-4F06-A533-ED193AF0A7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F9DF82-5D3A-4F06-A533-ED193AF0A7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8096976A-7674-40E0-BB7B-C2789929301E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8096976A-7674-40E0-BB7B-C2789929301E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8096976A-7674-40E0-BB7B-C2789929301E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8096976A-7674-40E0-BB7B-C2789929301E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B66B92-130C-4A5D-A309-9CF194CEB8D0}
+	EndGlobalSection
+EndGlobal
