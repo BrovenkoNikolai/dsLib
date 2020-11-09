@@ -7,7 +7,7 @@ namespace ds.test.impl
     /// <summary> 
     /// Фабрика плагинов. 
     /// </summary>
-    public class Plugins : PluginFactory
+    public sealed class Plugins : PluginFactory
     {
         public override int PluginsCount => Plugins.Count;
         public override string[] GetPluginNames => Plugins.Keys.ToArray();
